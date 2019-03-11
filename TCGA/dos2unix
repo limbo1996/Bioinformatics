@@ -1,9 +1,0 @@
-#!usr/bin/bash
-
-find /public/home/zhangjing1/asas -name "*.pbs" -exec dos2unix {} \;
-
-for file in /public/home/zhangjing1/asas/*.pbs
-do
-
-    qsub file
-done
